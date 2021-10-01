@@ -4,15 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="24dp"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/blue"
         android:text="Hello Toast!"/>
 
     <Button
+        android:id="@+id/tb1Toast"
         android:layout_width="match_parent"
         android:text="TOAST"
         android:textSize="30dp"
@@ -21,21 +25,25 @@
         android:background="@color/purple_500"/>
 
     <TextView
+        android:id="@+id/kounter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="0"
         android:textStyle="bold"
         android:textSize="200dp"
+        android:onClick="toastklik"
         android:gravity="center"
         android:layout_weight="1"
         android:textColor="@color/black"
         android:background="@color/blue"
-        />
+        tools:ignore="InvalidId,OnClick" />
 
     <Button
+        android:id="@+id/tb1Count"
         android:layout_width="match_parent"
         android:text="COUNT"
         android:textSize="30dp"
+        android:onClick="tb1kounter"
         android:layout_height="wrap_content"
         android:textColor="@color/white"
         android:background="@color/purple_500"/>
