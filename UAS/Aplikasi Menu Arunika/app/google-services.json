@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "580431147570",
+    "project_id": "arunika-caffee",
+    "storage_bucket": "arunika-caffee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:580431147570:android:d17da36a1b23eac3b2022b",
+        "android_client_info": {
+          "package_name": "com.example.menumakanan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "580431147570-887nmjvc2gk10a4ap12o5hphiufu2h2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0BLewmunGfxbeOW1eeFDmFDsOuq7nuK4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "580431147570-887nmjvc2gk10a4ap12o5hphiufu2h2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
